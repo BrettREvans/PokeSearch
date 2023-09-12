@@ -1,0 +1,14 @@
+#pokemonImage, #pokemonInfoBox {
+	display: inline-block;
+}
+
+#pokemonImageBox {
+	width: 250px;
+	height: 250px;
+	border: 1px solid black;
+	margin-top: 10px;
+}
+table td {
+	margin: 5px;
+	padding: 5px;
+}

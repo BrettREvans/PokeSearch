@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>replit</title>
+    <link href="style.css" rel="stylesheet" type="text/css" defer />
+  	<script src="script.js" defer></script>
+  </head>
+  <body>
+    <h1>PokeSearch</h1>
+	  
+	<div id="controls">
+		<label for="search">Enter a name or number</label><br>
+		<input id="search">
+		<button id="searchBtn">search</button>
+	</div>
+	  
+    <div id="pokemon container">
+		<div id="pokemonImageBox" width="250px" height="250px" >
+			<img id="pokemonImage" width="250px" src="">
+		</div>
+		<div  id="pokemonInfoBox">
+			<p id="pokemonNumber"><strong>Number: </strong></p>
+			<p id="pokemonName"><strong>Name: </strong></p>
+			<p id="pokemonType"><strong>Type: </strong></p>
+			<table>
+				<thead>
+					<td>Base Hp</td>
+					<td>Base Attack</td>
+					<td>Base Defense</td>
+					<td>Base Special-Attack</td>
+					<td>Base Special-Defense</td>
+					<td>Base Speed</td>
+				</thead>
+				<tbody>
+					<tr>
+						<td id="baseHp">0</td>
+						<td id="baseAttack">0</td>
+						<td id="baseDefense">0</td>
+						<td id="baseSpAttack">0</td>
+						<td id="baseSpDefense">0</td>
+						<td id="baseSpeed">0</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	
+  </body>
+</html>
